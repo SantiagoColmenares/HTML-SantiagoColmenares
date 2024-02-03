@@ -6,6 +6,48 @@
     <title>Registro</title>
 </head>
 <body>
-    
+    <form action="registro/uno.html" method="get">
+        <ul>
+            <li>
+                Nombre: <br> <input type="text" placeholder="Nombre" required>
+            </li>
+            <li>
+                Apellido: <br> <input type="text" placeholder="Apellido" required>
+            </li>
+            <li>
+                Telefono: <br> <input type="tel" placeholder="+57 123456789" required>
+            </li>
+            <li>
+                Sexo: <br> 
+                <input type="radio" name="sexo" value="M">M 
+                <input type="radio" name="sexo" value="F">F
+            </li>
+            <li>
+                Direccion: <br> <input type="text" required>
+            </li>
+            <li>
+                Correo: <br> <input type="email" placeholder="ejemplo@ejemplo.com" required>
+            </li>
+            <li>
+                Usuario: <br> <input type="text" minlength="8" required> 
+            </li>
+            <li>
+                Contraseña: <br> <input type="text" minlength="8" required>
+            </li>
+            <li>
+                Fecha de nacimiento: <br> <input type="date" required>
+            </li>
+            <li>
+                Selecione su ciudad:
+                <select name="Bucaramanga">
+                    <option value="Bucaramanga" selected>Bucaramanga</option>
+                    <option value="Bogota">Bogota</option>
+                    <option value="Medellin">Medellin</option>
+                    <option value="Cartagena">Cartagena</option>
+                </select>
+            </li>
+            <br><button type="submit">Registrar</button>
+        </ul>
+    </form>
 </body>
 </html>
