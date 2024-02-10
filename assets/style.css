@@ -1,36 +1,50 @@
-body{
-    background: #000;
-    color: #c2c2c2;
-    font-size: 14px;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 
-.menu ul div{
+
+header{
+
+    background: #1c1c1c;
+}
+img{
+    max-width: 80px;
+}
+
+nav {
+    background: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
     display: inline;
+    margin-right: 20px;
 }
 
-
-
-.menu ul li{
-    float: right;
-    
+ul li a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
 }
 
-
-
-
-.nombre{
-    background-color: #f2f2f2;
-}
-
-
-
-nav ul li a{
+ul li a:hover{
     color: red;
 }
-
-nav ul li a:hover{
-    background: #c2c2c2;
-    display: block;
-    width: 200px;
-}  
